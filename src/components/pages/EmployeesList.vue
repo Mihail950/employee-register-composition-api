@@ -26,7 +26,6 @@ export default defineComponent({
     const store = useStore();
     const router = useRouter();
 
-    const g: string = 1;
     const searchEmployeeValue = ref("");
     const employeesVisible = ref([]);
 
